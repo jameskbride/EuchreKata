@@ -15,7 +15,7 @@ _As the Dealer_<br />
 _In order to begin the Hand_<br />
 _I want to deal each Player their cards_<br />
 
-At the beginning of the hand one player is designated as the dealer, and deals each player 5 cards from the top of a shuffled deck in the following manner: each player gets 2, then 3 cards in rotating team order, then each player gets 3 cards in rotating team order.
+At the beginning of the hand one player is designated as the dealer, who deals each player 5 cards from the top of a shuffled deck.  Cards are dealt in 2 rounds; in the first round all players get 2 cards, and in the second round all players get 3 cards.
 
 The remainder of the deck (known as the "kitty") is set aside.
 
@@ -42,7 +42,7 @@ For example, if Hearts is trump then the ranking of trump cards in descending or
 #### Declaring Trump
 The "trump" suit is declared at the beginning of the hand, after the cards have been dealt.
 
-After the hand has been dealt the top card of the kitty is turned over by the dealer and each player may get a chance to declare trump for their team in rotating team order with the dealer choosing last.  
+After the hand has been dealt the top card of the kitty is turned over by the dealer and each player may get a chance to declare trump for their team in rotating team order, with the dealer choosing last.  
 
 If a player:
 * has at least three cards of the same suit of the revealed card, or
@@ -56,14 +56,15 @@ Trump may only be declared once, and once declared the remaining players lose th
 If no player declares trump then the hand is over with no winner.
 
 ## Playing a Trick
-Once trump has been declared the hand is played as five tricks (one per card in the hand).  
+Once trump has been declared the hand is played as a series of five tricks (one per card in the hand).
+
 ### Play Order
 
 _As the Players_<br />
 _In order to play a Trick_<br />
 _We want to play cards in rotating team order_<br />
 
-Each player plays one card per trick. In a real game players play cards clockwise beginning with the player to the left of the dealer. For this exercise players will play their cards in a trick in a fixed, rotating team order. Whoever won the previous trick begins the next trick, followed by the rest of the players in rotating team order.  
+Each player plays one card per trick. The player to the left of the dealer plays the first card of the first trick. Whoever won the previous trick begins the next trick, followed by the rest of the players in rotating team order.  
 
 ### The Lead Suit
 
@@ -91,7 +92,7 @@ A player should play a card that will give them the best chance of winning the t
 
 Trump cards are higher than the lead suit (if the lead suit is not the trump suit), which is higher than off-suit cards.  Two cards within the same suit should be evaluated by the rules of that suit to determine who wins the trick.
 
-### Wining a hand
+### Winning a hand
 _As a Team_<br />
 _In order to determine who won the Hand_<br />
 _I want to win three or more tricks_<br />
@@ -106,4 +107,4 @@ _We want to play as Teams_<br />
 
 Euchre is a team game which is played cooperatively.  Teammates should not work against each other, and should play their cards in a way so as not to waste cards that may let them win a future trick.  
 
-If a teammate appears to be winning a trick then a player should play the lowest card they are allowed to play. On the other hand if a teammate is not winning a trick then a player should play their highest card. Players must still abide by the lead suit and trump rules however.
+In a real game this is where human strategy is involved.  For the purpose of this exercise if a teammate appears to be winning a trick then a player should play the lowest card they are allowed to play. On the other hand if a teammate is not winning a trick then a player should play their highest card if it will beat the opposing team's cards.  If the player's team is not winning, and their highest card can't win either then they should play their lowest card. Players must still abide by the lead suit and trump rules.  
