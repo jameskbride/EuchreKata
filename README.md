@@ -1,11 +1,11 @@
 # The Euchre Kata
+[Euchre](https://en.wikipedia.org/wiki/Euchre) is a trick-based, team-based card game popular in parts of the Midwest.  It implements a relatively simple set of rules, and is played for points across multiple hands. This kata implements a set of abbreviated rules of Euchre for a single hand. Some rules, such as the second round of declaring trump, going it alone, and partner's best will not be implemented here.
+
+The point of this kata to to provide a larger than trivial exercise that can be used to practice TDD. A significant portion of the effort will be in determining what tests should be written and, more importantly, written next.
+
 ## Basic Rules
-* Play one hand of Euchre
-* 4 Players, 2 teams.  In a real game players sit facing their teammates.
-* Even players form one team, odd players form the other team
-* Only the 9, 10, J, Q, K, A of each suit (hearts, diamonds, spades, and clubs) are used.  All other cards are excluded from the deck and are not used.
-* A hand consists of 5 "tricks"
-* In order to win the hand a team must get 3 or more tricks
+
+Euchre has four players split into two teams. Teammates sit facing each other, and game play is always in rotating team order in clockwise fashion. Only the 9, 10, Jack, Queen, King, and Ace of the deck are used for each suit (hearts, diamonds, spades, and clubs).  All other cards are excluded from the deck and are not used.
 
 ## Playing a Hand
 
@@ -17,7 +17,7 @@ _I want to deal each Player their cards_<br />
 
 At the beginning of the hand one player is designated as the dealer, and deals each player 5 cards from the top of a shuffled deck in the following manner: each player gets 2, then 3 cards in rotating team order, then each player gets 3 cards in rotating team order.
 
-The remainder of the deck (known as the "kitty) is set aside.
+The remainder of the deck (known as the "kitty") is set aside.
 
 ### Trump Suit
 
