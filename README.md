@@ -56,14 +56,14 @@ Trump may only be declared once, and once declared the remaining players lose th
 If no player declares trump then the hand is over with no winner.
 
 ## Playing a Trick
-Each hand is played as five tricks (one per card in the hand).  
+Once trump has been declared the hand is played as five tricks (one per card in the hand).  
 ### Play Order
 
 _As the Players_<br />
 _In order to play a Trick_<br />
 _We want to play cards in rotating team order_<br />
 
-Each player plays one card per trick. In a real game players play cards clockwise beginning with the player to the left of the dealer. For this exercise players will play their cards in a trick in a fixed, rotating team order. Whoever won the previous trick begins the next trick.  
+Each player plays one card per trick. In a real game players play cards clockwise beginning with the player to the left of the dealer. For this exercise players will play their cards in a trick in a fixed, rotating team order. Whoever won the previous trick begins the next trick, followed by the rest of the players in rotating team order.  
 
 ### The Lead Suit
 
