@@ -9,22 +9,22 @@
 
 ## Playing a Hand
 
-### Dealing the Hand
+### Dealing
 
 _As the Dealer_<br />
 _In order to begin the Hand_<br />
 _I want to deal each Player their cards_<br />
 
-At the beginning of the hand one player is designated as the dealer, and deals each player 5 cards from the top of a shuffled deck in the following manner: each player gets 2 cards in rotating team order, then each player gets 3 cards in rotating team order.
+At the beginning of the hand one player is designated as the dealer, and deals each player 5 cards from the top of a shuffled deck in the following manner: each player gets 2, then 3 cards in rotating team order, then each player gets 3 cards in rotating team order.
 
 So:
 
 1. Team 1 Player 1 gets 2 card
-2. Team 2 Player 2 gets 2 cards
+2. Team 2 Player 2 gets 3 cards
 3. Team 1 Player 3 gets 2 cards
-4. Team 2 Player 4 gets 2 cards.  
+4. Team 2 Player 4 gets 3 cards.  
 
-Next, Team 1 player 1 gets 3 cards, and so on until all 4 players have 5 cards.  
+Next, Team 1 player 1 gets 3 cards, Team 2 Player 2 gets 2 cards and so on until all 4 players have 5 cards.  
 
 The remainder of the deck (known as the "kitty) is set aside.
 
@@ -56,7 +56,9 @@ After the hand has been dealt the top card of the kitty is turned over by the de
 If a player:
 * has at least three cards of the same suit of the revealed card, or
 * has two cards in the revealed suit and an Ace of another suit, or
-* is the teammate of the dealer and the player has at least two cards in the revealed suit they should declare trump.  Otherwise they should pass, and the next player in turn gets a chance to declare trump.
+* is the teammate of the dealer and the player has at least two cards in the revealed suit
+
+they should declare trump.  Otherwise they should pass, and the next player in turn gets a chance to declare trump.
 
 Trump may only be declared once, and once declared the remaining players lose their chance to declare it. Once trump is declared the dealer picks up the trump card and discards their lowest card back to the kitty (remember trump cards are higher than all other cards).
 
