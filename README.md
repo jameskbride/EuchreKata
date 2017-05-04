@@ -17,15 +17,6 @@ _I want to deal each Player their cards_<br />
 
 At the beginning of the hand one player is designated as the dealer, and deals each player 5 cards from the top of a shuffled deck in the following manner: each player gets 2, then 3 cards in rotating team order, then each player gets 3 cards in rotating team order.
 
-So:
-
-1. Team 1 Player 1 gets 2 card
-2. Team 2 Player 2 gets 3 cards
-3. Team 1 Player 3 gets 2 cards
-4. Team 2 Player 4 gets 3 cards.  
-
-Next, Team 1 player 1 gets 3 cards, Team 2 Player 2 gets 2 cards and so on until all 4 players have 5 cards.  
-
 The remainder of the deck (known as the "kitty) is set aside.
 
 ### Trump Suit
@@ -51,14 +42,14 @@ For example, if Hearts is trump then the ranking of trump cards in descending or
 #### Declaring Trump
 The "trump" suit is declared at the beginning of the hand, after the cards have been dealt.
 
-After the hand has been dealt the top card of the kitty is turned over by the dealer and each player may get a chance to declare trump for their team in rotating team order.  
+After the hand has been dealt the top card of the kitty is turned over by the dealer and each player may get a chance to declare trump for their team in rotating team order with the dealer choosing last.  
 
 If a player:
 * has at least three cards of the same suit of the revealed card, or
 * has two cards in the revealed suit and an Ace of another suit, or
 * is the teammate of the dealer and the player has at least two cards in the revealed suit
 
-they should declare trump.  Otherwise they should pass, and the next player in turn gets a chance to declare trump.
+they should declare trump.  Otherwise they should pass, and the next player in turn gets a chance to declare the revealed suit as trump.
 
 Trump may only be declared once, and once declared the remaining players lose their chance to declare it. Once trump is declared the dealer picks up the trump card and discards their lowest card back to the kitty (remember trump cards are higher than all other cards).
 
@@ -72,17 +63,7 @@ _As the Players_<br />
 _In order to play a Trick_<br />
 _We want to play cards in rotating team order_<br />
 
-Each player plays one card per trick. In a real game players play cards clockwise beginning with the player to the left of the dealer. For this exercise players will play their cards in a trick in a fixed, rotating team order. Team 1 Player 1 (assumed to be the player to the left of the dealer) always begins the first trick, so the initial play order would be:
-  1. Team 1 Player 1
-  2. Team 2 Player 2
-  3. Team 1 Player 3
-  4. Team 2 player 4
-
-Whoever won the previous trick begins the next trick.  For example, if Team 2 Player 2 won the previous trick then the play order would be:
-  1. Team 2 Player 2
-  2. Team 1 Player 3
-  3. Team 2 Player 4
-  4. Team 1 Player 1
+Each player plays one card per trick. In a real game players play cards clockwise beginning with the player to the left of the dealer. For this exercise players will play their cards in a trick in a fixed, rotating team order. Whoever won the previous trick begins the next trick.  
 
 ### The Lead Suit
 
